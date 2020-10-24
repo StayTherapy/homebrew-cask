@@ -17,7 +17,7 @@ cask "squirrel-beta" do
   homepage "https://rime.im/"
   
   # Conflicts with official release version.
-  conflicts_with cask: "squirrel", because: "This is a testing version but installation package name is the same as release."
+  conflicts_with cask: "squirrel"
 
   auto_updates true
 
